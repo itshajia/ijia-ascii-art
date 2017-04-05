@@ -1,0 +1,20 @@
+@import "var";
+
+.ijia-ascii-art {
+  margin-top: 10px; position: relative;
+  color: #646363;
+  font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, STHeiti, 华文细黑, sans-serif;
+  overflow: hidden;
+}
+
+.ijia-ascii-art-container {
+
+  .ijia-ascii-art-hidden-input {
+    visibility: hidden; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; width: 0px; height: 0px;
+  }
+}
+
+.ijia-ascii-art-viewport {
+  background: white;
+  border: 1px solid #e5ebf1; margin-top: 10px; overflow: hidden;
+}

@@ -1,0 +1,33 @@
+@import "var";
+
+.ijia-ascii-art-stage {
+  min-height: 250px; position: relative; padding: 15px; z-index: 0;
+  cursor: pointer;
+}
+
+/**
+ * 消息舞台
+ */
+.ijia-ascii-art-msg-stage {
+  text-align: center; margin: 2em 0; font-size: 22px; color: #989898;
+  position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; height: 30px; line-height: 30px;
+  margin: auto;
+}
+
+/**
+ * 画布舞台
+ */
+.ijia-ascii-art-canvas-stage {
+  position: relative; text-align: center; padding: 25px;
+
+  canvas {
+     margin: auto;
+    width: 200px;
+  }
+}
+
+/**
+ * 附属舞台
+ */
+.ijia-ascii-art-sub-stage {
+}

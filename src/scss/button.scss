@@ -1,0 +1,40 @@
+@import "var";
+
+.ijia-ascii-art-btn {
+
+  .ijia-ascii-art-upload-btn {
+    cursor: pointer;
+    background-color: $btnBgColor;
+    background-image: linear-gradient(to bottom, $btnBgColor, $btnBgColorEnd);
+    background-position: center top;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    border: 1px solid #399ae5;
+    color: $btnColor;
+    font: 15px Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(255,255,255,0.25);
+    width: 135px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px;
+    position: relative; font-size: 14px;
+
+    i {
+      position: absolute; left: 25px;
+      width: 19px; height: 100%;
+      background: url(../images/icon-btn-uploadify.png) center no-repeat;
+      background-size: 100%;
+    }
+
+    span {
+      margin-left: 25px;
+    }
+
+    &.disabled {
+      background-color: $btnBgColorDisabled;
+      background-image: linear-gradient(to bottom, $btnBgColorDisabled, $btnBgColorEndDisabled);
+      border: 1px solid #bbbbbb;
+    }
+  }
+}
